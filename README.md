@@ -46,12 +46,6 @@ El backend expone una API REST con Django REST Framework y autenticación por to
   - `Aislamiento por usuario`: cada persona solo accede a sus propios medicamentos.
 - `Cierre de sesión`: elimina los tokens del navegador y vuelve al login.
 
-## Capturas de pantalla
-
-> Agrega aquí imágenes o GIFs del proyecto. Súbelos a una carpeta `docs/` del repositorio y enlázalos así:
->
-> `![Pantalla de inicio de sesión](docs/login.png)`
-
 ## Acceso al proyecto
 
 Clona el repositorio:
