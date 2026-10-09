@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/Django-REST%20Framework-092E20?logo=django&logoColor=white" alt="Django REST Framework">
   <img src="https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=black" alt="React con Vite">
   <img src="https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white" alt="Autenticación JWT">
-  <img src="https://img.shields.io/badge/Licencia-MIT-blue" alt="Licencia MIT">
 </p>
 
 ## Índice
@@ -19,14 +18,10 @@
 * [Descripción del proyecto](#descripción-del-proyecto)
 * [Estado del proyecto](#estado-del-proyecto)
 * [Funcionalidades](#funcionalidades)
-* [Capturas de pantalla](#capturas-de-pantalla)
-* [Acceso al proyecto](#acceso-al-proyecto)
-* [Abre y ejecuta el proyecto](#abre-y-ejecuta-el-proyecto)
 * [API](#api)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
-* [Personas contribuyentes](#personas-contribuyentes)
-* [Autores](#autores)
-* [Licencia](#licencia)
+
+
 
 ## Descripción del proyecto
 
@@ -46,16 +41,6 @@ El backend expone una API REST con Django REST Framework y autenticación por to
   - `Aislamiento por usuario`: cada persona solo accede a sus propios medicamentos.
 - `Cierre de sesión`: elimina los tokens del navegador y vuelve al login.
 
-## Acceso al proyecto
-
-Clona el repositorio:
-
-```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
-```
-
-## Abre y ejecuta el proyecto
 
 ### Requisitos previos
 
@@ -63,7 +48,6 @@ cd TU_REPOSITORIO
 - Node.js 18 o superior
 - `pip` y `npm`
 
-> Ajusta los nombres de las carpetas (`backend/`, `frontend/`) a los de tu repositorio.
 
 ### 1. Backend (Django)
 
@@ -86,12 +70,6 @@ python manage.py runserver
 ```
 
 El backend queda disponible en `http://127.0.0.1:8000/`.
-
-Opcionalmente, crea un superusuario para entrar al panel de administración (`/admin/`):
-
-```bash
-python manage.py createsuperuser
-```
 
 ### 2. Frontend (React + Vite)
 
